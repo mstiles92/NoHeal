@@ -2,7 +2,7 @@ author: mstiles92
 description: Prevents players from regaining health due to eating food, having a full hunger bar, or potion effects.
 name: NoHeal
 main: com.mstiles92.noheal.NoHealPlugin
-version: '1.0'
+version: '1.1'
 startup: postworld
 permissions:
   noheal.bypass:
@@ -14,4 +14,4 @@ permissions:
 commands:
   noheal:
     description: View/change the state of the plugin's effect.
-    usage: /<command> [enable|disable|toggle]
+    usage: /<command> [enable|disable|toggle|setmax (MaxHealth)]

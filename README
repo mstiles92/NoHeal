@@ -1,13 +1,14 @@
-NoHeal v1.0
+NoHeal v1.1
 by mstiles92
 
 This plugin simply blocks players from regenerating health due to eating food, having a full hunger bar, or potion effects.
 
 Commands:
-/noheal [enable|disable|toggle]: Displays or changes the state of the plugin's effect.
+/noheal [enable|disable|toggle|setmax (MaxHealth)]: Displays or changes the state of the plugin's effect.
 
 Permissions:
 noheal.bypass: Allows the player to heal like normal.
+noheal.bypasslimit: Allows the player to have full health, bypassing the limit.
 noheal.toggle: Allows the player to toggle the effect on/off for the entire server.
 
 Originally requested at http://forums.bukkit.org/threads/complete-hunger-doesnt-heal-hp.88798/
