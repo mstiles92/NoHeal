@@ -1,4 +1,4 @@
-package com.mstiles92.noheal.test;
+package com.mstiles92.plugins.noheal.test;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -8,22 +8,14 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.powermock.api.mockito.PowerMockito;
-import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 
 import static org.mockito.Mockito.*;
 
-import com.mstiles92.noheal.NoHealPlugin;
-import com.mstiles92.noheal.NoHealRegenListener;
+import com.mstiles92.plugins.noheal.NoHealPlugin;
+import com.mstiles92.plugins.noheal.NoHealRegenListener;
 
 @RunWith(PowerMockRunner.class)
-@PrepareForTest({
-	NoHealPlugin.class,
-	EntityRegainHealthEvent.class,
-	Player.class,
-	Entity.class,
-	RegainReason.class
-})
 public class EntityRegainHealthTest {
 	private static final int MAX_HEALTH = 20;
 	

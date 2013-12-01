@@ -1,4 +1,4 @@
-package com.mstiles92.noheal.test;
+package com.mstiles92.plugins.noheal.test;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerJoinEvent;
@@ -11,15 +11,11 @@ import org.powermock.modules.junit4.PowerMockRunner;
 
 import static org.mockito.Mockito.*;
 
-import com.mstiles92.noheal.NoHealPlugin;
-import com.mstiles92.noheal.NoHealRegenListener;
+import com.mstiles92.plugins.noheal.NoHealPlugin;
+import com.mstiles92.plugins.noheal.NoHealRegenListener;
 
 @RunWith(PowerMockRunner.class)
-@PrepareForTest({
-	NoHealPlugin.class,
-	PlayerJoinEvent.class,
-	Player.class
-})
+@PrepareForTest({ PlayerJoinEvent.class })
 public class PlayerJoinTest {
 	private static final int MAX_HEALTH = 20;
 

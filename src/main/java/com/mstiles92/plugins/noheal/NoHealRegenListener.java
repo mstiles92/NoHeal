@@ -6,7 +6,7 @@
  * http://dev.bukkit.org/server-mods/noheal/
  * http://github.com/mstiles92/NoHeal
  *
- * Copyright © 2013 Matthew Stiles (mstiles92)
+ * Copyright ï¿½ 2013 Matthew Stiles (mstiles92)
  *
  * Licensed under the Common Development and Distribution License Version 1.0
  * You may not use this file except in compliance with this License.
@@ -21,7 +21,7 @@
  * limitations under the license.
  */
 
-package com.mstiles92.noheal;
+package com.mstiles92.plugins.noheal;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
