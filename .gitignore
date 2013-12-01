@@ -3,5 +3,9 @@
 .classpath
 .project
 
+# IntelliJ
+.idea/
+*.iml
+
 # output
 target/
