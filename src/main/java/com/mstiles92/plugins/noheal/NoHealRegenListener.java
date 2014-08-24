@@ -1,12 +1,12 @@
-/**
+/*
  * This document is a part of the source code and related artifacts for
  * NoHeal, an open source Bukkit plugin for controlling health regeneration
  * of players on a server.
  *
- * http://dev.bukkit.org/server-mods/noheal/
+ * http://dev.bukkit.org/bukkit-plugins/noheal/
  * http://github.com/mstiles92/NoHeal
  *
- * Copyright � 2013 Matthew Stiles (mstiles92)
+ * Copyright (c) 2014 Matthew Stiles (mstiles92)
  *
  * Licensed under the Common Development and Distribution License Version 1.0
  * You may not use this file except in compliance with this License.
